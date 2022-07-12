@@ -1,0 +1,76 @@
+.img-1 {
+    background-image: url(./assets/images/business\ centre.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.img-2 {
+    background-image: url(./assets/images/gym.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.img-3 {
+    background-image: url(./assets/images/spa\ rainforest.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.img-4 {
+    background-image: url(./assets/images/hotel\ image\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.img-5 {
+    background-image: url(./assets/images/hiking.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.img-6 {
+    background-image: url(./assets/images/playroom.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.img-7 {
+    background-image: url(./assets/images/hotel\ image\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.img-8 {
+    background-image: url(./assets/images/stargazing.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.img-9 {
+    background-image: url(./assets/images/wedding\ image\ outdoor\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+h1, h2, h5, h4 {
+    font-family: 'Vollkorn', serif;
+    -webkit-text-fill-color: #2E3D33;
+}

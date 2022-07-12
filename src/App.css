@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #515136;
+  font-family: 'Vollkorn', serif;
+  text-decoration: none;
+  height: 50px;
+  overflow: hidden;
+  -webkit-text-fill-color: white;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #515136;
+}
+header li {
+  float: left;
+  margin-left: 12%;
+  margin-top: 1%;
+  -webkit-text-fill-color: #C2B49B;
+}
+header h3 {
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 1%;
+  -webkit-text-fill-color: white;
+  font-size: 16px;
+}
+header h3:hover {
+  -webkit-text-fill-color: #C2B49B;
+}
+header h3:active {
+  -webkit-text-fill-color: #515136;
+}
+header img {
+  background-image: url(./assets/images/logo.png);
+  margin-left: -150px;
+  margin-top: 1%;
+}
+header button {
+  float: right;
+  background-color: #B18742;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding : 7px;
+  margin-top: -35px;
+  margin-right: 30px;
+  border-color: #B18742;
+}
+.nav-btn {
+  background-color: #B18742;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: -35px;
+  -webkit-text-fill-color: #333738;
+  font-family: 'Vollkorn', serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+footer {
+  background-color: #515136;
+  font-family: 'Vollkorn', serif;
+  height: 3%;
+  overflow: hidden;
+}
+footer h5 {
+  font-size: 1em;
+  width: 105px;
+  -webkit-text-fill-color: #746A3C;
+  margin-left: 15%;
+  text-decoration: none;
+}
+footer h5:hover {
+  -webkit-text-fill-color: #C2B49B;
+  cursor: pointer;
+}
+footer h4 {
+  text-decoration: none;
+  width: 105px;
+  font-size: 1.1em;
+  margin: 0 1%;
+  padding-bottom: 10px;
+  padding-right: 85px;
+  -webkit-text-fill-color: #C2B49B;
+}
+footer h4:hover {
+  -webkit-text-fill-color: #746A3C;
+  cursor: pointer;
+}
+footer ul {
+  list-style-type: none;
+  margin: 0.8%;
+  padding: 0;
+  overflow: hidden;
+  background-color: #515136;
+}
+footer li {
+  float: left;
+  text-decoration: none;
+  margin-left: 5%;
+  margin-right: 7%;
+}
+footer Link {
+  text-decoration: none;
+}
