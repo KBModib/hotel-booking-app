@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Carousel from 'react-bootstrap/Carousel';
@@ -8,121 +9,119 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './LandingPage.css';
+import img1 from './assets/images/hiking.jpg';
 
 export default function LandingPage() {
+
+  
   return (
  <>
     <Header />
-    <div className="sliderContainer"><Carousel>
+    <Carousel className="sliderContainer">
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
-          alt="First slide"
+          src={img1}
+          alt="1"
         />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+       
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
-          alt="Second slide"
+          src=""
+          alt="2"
         />
 
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide"
+          src=""
+          alt="3"
         />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-      </div>
-    <div className="roomsContainer"> <Card style={{ width: '18rem' }}>
+    <div className="roomsContainer"> 
+    <Card className='room-cards'>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Standard Room</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Glamping with a twist. Rainforest outside and birdies as your alarm clock. waterfall as your white noise machine putting you to sleep.
         </Card.Text>
-        <Button variant="primary">View</Button>
+        <Button><Link to="/rooms" className='rooms-btn'>View</Link></Button>
       </Card.Body>
-    </Card> <Card style={{ width: '18rem' }}>
+    </Card> 
+    <Card className='room-cards'>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Deluxe Suite</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Rooms have been designed to give you the feeling of being in the  rainforest, with views of the rainforest from all angles. Room is vast and you feel like you are a step away from being amongst the animals in the trees of the forest.
         </Card.Text>
-        <Button variant="primary">View</Button>
+        <Button><Link to="/rooms" className='rooms-btn'>View</Link></Button>
       </Card.Body>
-    </Card> <Card style={{ width: '18rem' }}>
+    </Card> 
+    <Card className='room-cards'>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Studio suite</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        End to end view of the forest and your company. Studio suite is perfect for solo travellers,couples and even little families. This takes being your forest experience to the next level with stunning 360-degree views from every corner of the park.
         </Card.Text>
-        <Button variant="primary">View</Button>
+        <Button><Link to="/rooms" className='rooms-btn'>View</Link></Button>
       </Card.Body>
-    </Card> <Card style={{ width: '18rem' }}>
+    </Card> <Card className='room-cards'>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Executive Suite</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Luxury suites with smart technologies blend the natural forest atmosphere with technology. Beautiful furniture, lush textures that remind you of the jungle and luxurious furnishings for guests to enjoy.
         </Card.Text>
-        <Button variant="primary">View</Button>
+        <Button><Link to="/rooms" className='rooms-btn'>View</Link></Button>
       </Card.Body>
-    </Card> <Card style={{ width: '18rem' }}>
+    </Card> <Card className='room-cards'>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Penthouse</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Great for big groups of family and friends to stay in, or little families who just love their own private nooks and crans-sur-bois.
         </Card.Text>
-        <Button variant="primary">View</Button>
+        <Button><Link to="/rooms" className='rooms-btn'>View</Link></Button>
       </Card.Body>
-    </Card> <Card style={{ width: '18rem' }}>
+    </Card> <Card className='room-cards'>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Presidential Penthouse</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        The property has been designed to blend the natural forest atmosphere with technology for guests to enjoy every aspect of a luxury holiday.
         </Card.Text>
-        <Button variant="primary">View</Button>
+        <Button><Link to="/rooms" className='rooms-btn'>View</Link></Button>
       </Card.Body>
     </Card>
     </div>
-    <div className="amenitiesContainer">Amenities</div>
+    <div className="amenitiesContainer">Amenities
+    <Link to="/amenities" className='amenities-btn'>More</Link>
+    </div>
     <Container className="contactContainer">
     <Row>
         <Col xs={12} md={8}>
-          xs=12 md=8
+          <h6>
+              1987A Rigout Road 
+              Trenture Side Oaks
+              Apline Estate East
+              1589476
+            </h6>
         </Col>
         <Col xs={6} md={4}>
-          xs=6 md=4
+          <h6>
+              +30-2106019311 (landline)
+              +30-6977664062 (mobile phone)
+              +30-2106398905 (fax)
+              reception@forest.com
+              bookings@foresthotel.com
+            </h6>
         </Col>
         <Col xs={6} md={4}>
           xs=6 md=4
@@ -132,4 +131,4 @@ export default function LandingPage() {
     <Footer />
  </>
   )
-}
+};
