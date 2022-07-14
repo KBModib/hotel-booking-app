@@ -1,76 +1,103 @@
-.img-1 {
-    background-image: url(./assets/images/business\ centre.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
+*{
+    margin: 0;
+    padding: 0;
+    overflow:hidden !important;
 }
-.img-2 {
-    background-image: url(./assets/images/gym.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
+.amenities-container{
     width: 100%;
-}
-.img-3 {
-    background-image: url(./assets/images/spa\ rainforest.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 100%;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 150px 15px 150px;
 }
-.img-4 {
-    background-image: url(./assets/images/hotel\ image\ 3.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.images {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.images img{
+    width: 100%;
     height: 100%;
-    width: 100%;
 }
-.img-5 {
-    background-image: url(./assets/images/hiking.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.image-lastrow {
+    width: 450px;
+    height:450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image-lastrow img{
+    width: 100%;
     height: 100%;
-    width: 100%;
 }
-.img-6 {
-    background-image: url(./assets/images/playroom.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
+.text {
+    width: 350px;
 }
-.img-7 {
-    background-image: url(./assets/images/hotel\ image\ 2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-}
-.img-8 {
-    background-image: url(./assets/images/stargazing.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-}
-.img-9 {
-    background-image: url(./assets/images/wedding\ image\ outdoor\ 2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-}
-h1, h2, h5, h4 {
+.text h4 {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 10px;
     font-family: 'Vollkorn', serif;
-    -webkit-text-fill-color: #2E3D33;
+    color: #2E3D33;
+    line-height: 26px;
+}
+.text p {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    font-family: 'Lora', serif;
+    color: #8F8255;
+    line-height: 26px;
+}
+.lastrow-heading {
+    width: 850px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.lastrow-heading h2 {
+    font-size: 42pt;
+    font-weight: lighter;
+    margin: 30px 0;
+    font-family: 'Vollkorn', serif;
+    color: #2E3D33;
+    line-height: 56px;
+}
+.lastrow-text p {
+    font-size: 10pt;
+    font-weight: normal;
+    margin-bottom: 10px;
+    font-family: 'Lora', serif;
+    color: #8F8255;
+    line-height: 26px;
+    width: 400px;
+}
+h1 {
+    font-size: 42pt;
+    font-weight: lighter;
+    margin: 50px 0;
+    font-family: 'Vollkorn', serif;
+    color: #2E3D33;
+    line-height: 6px;
+    text-align: center;
+}
+h5 {
+    font-size: 18pt;
+    font-weight: bold;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    font-family: 'Lora', serif;
+    color: #2E3D33;
+    text-align: center;
+}
+.lower-text {
+    width: 900;
+    height: 100%;
+    text-align: left;
+    padding: 50px 150px 15px 150px;
+    color:#515136;
 }
