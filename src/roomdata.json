@@ -1,0 +1,101 @@
+{
+    "rooms": [
+        {
+            "id": "1",
+            "name": "Standard Room",
+            "image": "./assets/images/deluxe room.jpg",
+            "description": "This is room 1",
+            "capacity": 2,
+            "price": 1050,
+            "extras": [
+                {
+                    "id": "1",
+                    "name": "Crib",
+                    "description": "Add crib for baby."                
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Deluxe Suite",
+            "image": "./assets/images/standard room.jpg",
+            "description": "This is room 2",
+            "capacity": 2,
+            "price": 1600,
+            "extras": [
+                {
+                    "id": "1",
+                    "name": "Crib",
+                    "description": "Add crib for baby."                
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Studio Suite",
+            "image": "./assets/images/studio suite.jpg",
+            "description": "This is room 3",
+            "capacity": 2,
+            "price": 1800,
+            "extras": [
+                {
+                    "id": "1",
+                    "name": "Crib",
+                    "description": "Add crib for baby."                
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Executive Suite",
+            "image": "./assets/images/executive suite.jpg",
+            "description": "This is room 4",
+            "capacity": 2,
+            "price": 2550,
+            "extras": [
+                {
+                    "id": "1",
+                    "name": "Extra 1",
+                    "description": "This is extra 1",
+                    "price": 10
+                },
+                {
+                    "id": "2",
+                    "name": "Extra 2",
+                    "description": "This is extra 2",
+                    "price": 20
+                }
+            ]
+        }
+        {
+            "id": "5",
+            "name": "Penthouse",
+            "image": "./assets/images/penthouse.jpg",
+            "description": "This is room 5",
+            "capacity": 6,
+            "price": 3200,
+            "extras": [
+                {
+                    "id": "1",
+                    "name": "Crib",
+                    "description": "Add crib for baby."                
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Presidential Penthouse",
+            "image": "./assets/images/pres Penthouse.jpg",
+            "description": "This is room 6",
+            "capacity": 10,
+            "price": 6050,
+            "extras": [
+                {
+                    "id": "1",
+                    "name": "Crib",
+                    "description": "Add crib for baby."                
+                }
+            ]
+        }
+    ]
+}

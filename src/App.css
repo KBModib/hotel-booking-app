@@ -110,3 +110,32 @@ footer li {
 footer h5 {
   text-decoration: none;
 }
+.dashboard-button {
+  background-color: #C2B49B;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: -35px;
+  -webkit-text-fill-color: white;
+  font-family: 'Vollkorn', serif;
+  font-weight: normal;
+  font-size: 20px;
+  border: none;
+  width: 120px;
+  height: 60px;
+  padding:15px;
+  margin-top: 15px;
+}
+.dashboard-button:hover {
+  background-color: #2E3D33;
+  -webkit-text-fill-color: fff;
+  cursor: pointer;
+}
+.dashboard-button:active {
+  background-color: #746A3C;
+  -webkit-text-fill-color: fff;
+}
+.nav-admin {
+  text-decoration: none;
+  -webkit-text-fill-color: white;
+}

@@ -1,0 +1,9 @@
+.contact-form{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f2f2f2;
+    border: 1px solid red;
+  }

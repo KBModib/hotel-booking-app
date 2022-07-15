@@ -10,6 +10,7 @@ import BookingHistory from "./BookingHistory";
 import BookingLog from "./BookingLog";
 import RoomsLog from "./RoomsLog";
 import UsersLog from "./UsersLog";
+import AdminHome from "./AdminHome";
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/bookinglog " element={<BookingLog />}></Route>
           <Route path="/roomslog" element={<RoomsLog />}></Route>
           <Route path="/userslog" element={<UsersLog />}></Route>
+          <Route path="/adminhome" element={<AdminHome />}></Route>
         </Routes>
   </Router>
     </>

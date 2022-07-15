@@ -1,12 +1,11 @@
 import React from 'react'
 import AdminDashboard from './components/AdminDashboard'
 
-export default function BookingLog() {
+export default function AdminHome() {
   return (
-    <div>
+    <>
+      <img src='' alt='logo' />
       <AdminDashboard/>
-      <h1>Bookings dashboard</h1>
-      
-    </div>
+    </>
   )
 }
