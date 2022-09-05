@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer';
+import ima from '../src/assets/images/stargazing.jpg';
 
 export default function Rooms() {
   return (
@@ -17,7 +18,7 @@ export default function Rooms() {
         <div className='room-display'>
           <div className='room-section'>
             <h4 className='room-title'>Room name</h4>
-            <img src='' alt='room'/>
+            <img src={ima} alt='room'/>
           </div>
         </div>
       </div>

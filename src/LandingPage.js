@@ -6,30 +6,30 @@ import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import './LandingPage.css';
-//import img1 from './assets/images/hotel-main-image.jpg';
-//import img2 from './assets/images/hotel-image2.jpg';
-//import img3 from './assets/images/hotel-image 3.jpg';
-//import img4 from './assets/images/spa.jpg';
-//import img5 from './assets/images/wedding-image-indoor.jpg';
-//import img6 from './assets/images/hotel-image.jpg';
-//import img7 from './assets/images/standard-room.jpg';
-//import img8 from './assets/images/deluxe-suite.jpg';
-//import img9 from './assets/images/studio-suite.jpg';
-//import img10 from './assets/images/executive-suite.jpg';
-//import img11 from './assets/images/penthouse.jpg';
-//import img12 from './assets/images/pres-penthouse.jpg';
-//import img13 from './assets/icons/wifi.png';
-//import img14 from './assets/icons/spa.png';
-//import img15 from './assets/icons/dumbell.png';
-//import img16 from './assets/icons/parking.png';
-//import img17 from './assets/icons/airport.png';
-//import img18 from './assets/icons/hiking.png';
-//import img19 from './assets/icons/instagram.png';
-//import img22 from './assets/icons/facebook (1).png';
-//import img20 from './assets/icons/twitter.png';
-//import img21 from './assets/icons/whatsapp.png';
-//import img23 from './assets/icons/tik-tok.png';
-//import img24 from './assets/icons/bell.png';
+import img1 from '.././src/assets/images/hotel image.jpg';
+import img2 from '.././src/assets/images/hotel image 2.jpg';
+import img3 from '.././src/assets/images/hotel image 3.jpg';
+import img4 from '.././src/assets/images/spa.jpg';
+import img5 from '.././src/assets/images/wedding image indoor.jpg';
+import img6 from '.././src/assets/images/hotel image.jpg';
+import img7 from '.././src/assets/images/standard room.jpg';
+import img8 from '.././src/assets/images/deluxe suite.jpg';
+import img9 from '.././src/assets/images/studio suite.jpg';
+import img10 from '.././src/assets/images/executive suite.jpg';
+import img11 from '.././src/assets/images/penthouse.jpg';
+import img12 from '.././src/assets/images/pres Penthouse.jpg';
+import img13 from '.././src/assets/icons/wifi.png';
+import img14 from '.././src/assets/icons/spa.png';
+import img15 from '.././src/assets/icons/dumbell.png';
+import img16 from '.././src/assets/icons/parking.png';
+import img17 from '.././src/assets/icons/airport.png';
+import img18 from '.././src/assets/icons/hiking.png';
+import img24 from '.././src/assets/icons/instagram.png';
+import img22 from '.././src/assets/icons/facebook (1).png';
+import img20 from '.././src/assets/icons/twitter.png';
+import img21 from '.././src/assets/icons/whatsapp.png';
+import img23 from '.././src/assets/icons/tik-tok.png';
+import img19 from '.././src/assets/icons/bell.png';
 
 export default function LandingPage() {
 
@@ -41,15 +41,16 @@ export default function LandingPage() {
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-img"
-          src=''
+          src={img1}
           alt="1"
+          
         />
        
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-img"
-          src=''
+          src={img2}
           alt="2"
         />
 
@@ -57,28 +58,28 @@ export default function LandingPage() {
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-img"
-          src=''
+          src={img3}
           alt="3"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-img"
-          src=''
+          src={img4}
           alt="3"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-img"
-          src=''
+          src={img5}
           alt="3"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-img"
-          src=''
+          src={img6}
           alt="3"
         />
       </Carousel.Item>
@@ -87,7 +88,7 @@ export default function LandingPage() {
       <h1 className='rooms-titles'>Rooms on offer</h1>
       <div className="roomsContainer"> 
       <Card className='room-cards'>
-        <Card.Img variant="top" src='' className='room-card-img'/>
+        <Card.Img variant="top" src={img7} className='room-card-img'/>
         <Card.Body>
           <Card.Title className='room-card-title'>Standard Room</Card.Title>
           <Card.Text className='room-card-text'>
@@ -97,7 +98,7 @@ export default function LandingPage() {
         </Card.Body>
       </Card> 
       <Card className='room-cards'>
-        <Card.Img variant="top" src='' className='room-card-img'/>
+        <Card.Img variant="top" src={img8} className='room-card-img'/>
         <Card.Body>
           <Card.Title className='room-card-title'>Deluxe Suite</Card.Title>
           <Card.Text className='room-card-text'>
@@ -107,7 +108,7 @@ export default function LandingPage() {
         </Card.Body>
       </Card> 
       <Card className='room-cards'>
-        <Card.Img variant="top" src='' className='room-card-img'/>
+        <Card.Img variant="top" src={img9} className='room-card-img'/>
         <Card.Body>
           <Card.Title className='room-card-title'>Studio suite</Card.Title>
           <Card.Text className='room-card-text'>
@@ -117,7 +118,7 @@ export default function LandingPage() {
         </Card.Body>
       </Card> 
       <Card className='room-cards'>
-        <Card.Img variant="top" src='' className='room-card-img'/>
+        <Card.Img variant="top" src={img10} className='room-card-img'/>
         <Card.Body>
           <Card.Title className='room-card-title'>Executive Suite</Card.Title>
           <Card.Text className='room-card-text'>
@@ -127,7 +128,7 @@ export default function LandingPage() {
         </Card.Body>
       </Card>
       <Card className='room-cards'>
-        <Card.Img variant="top" src='' className='room-card-img'/>
+        <Card.Img variant="top" src={img11} className='room-card-img'/>
         <Card.Body>
           <Card.Title className='room-card-title'>Penthouse</Card.Title>
           <Card.Text className='room-card-text'>
@@ -137,7 +138,7 @@ export default function LandingPage() {
         </Card.Body>
       </Card> 
       <Card className='room-cards'>
-        <Card.Img variant="top" src='' className='room-card-img'/>
+        <Card.Img variant="top" src={img12} className='room-card-img'/>
         <Card.Body>
           <Card.Title className='room-card-title'>Presidential Penthouse</Card.Title>
           <Card.Text className='room-card-text'>
@@ -155,32 +156,32 @@ export default function LandingPage() {
           <p>Available to all guests. Equire about access passes</p>
         </li>
         <li>
-          <img src='' alt="1" className='amenities-img'/>
+          <img src={img13} alt="1" className='amenities-img'/>
           <h4>Wi-Fi</h4><br/>
           <p>Uncappped</p>
         </li>
         <li>
-          <img src='' alt="1" className='amenities-img'/>
+          <img src={img14} alt="1" className='amenities-img'/>
           <h4>Spa</h4>
         </li>
         <li>
-          <img src='' alt="1" className='amenities-img'/>
+          <img src={img15} alt="1" className='amenities-img'/>
           <h4>Gym</h4>
         </li>
         <li>
-          <img src='' alt="1" className='amenities-img'/>
+          <img src={img16} alt="1" className='amenities-img'/>
           <h4>Secured Parking</h4>
         </li>
         <li>
-          <img src='' alt="1" className='amenities-img'/>
+          <img src={img17} alt="1" className='amenities-img'/>
           <h4>Transfers</h4>
         </li>
         <li>
-          <img src='' alt="1" className='amenities-img'/>
+          <img src={img18} alt="1" className='amenities-img'/>
           <h4>Forest Guides</h4>
         </li>
         <li>
-          <img src='' alt="1" className='amenities-img'/>
+          <img src={img19} alt="1" className='amenities-img'/>
           <h4>Concierge</h4>
         </li>
         <li className='amenities-btn-container'>
@@ -207,11 +208,11 @@ export default function LandingPage() {
           <h3 className='contact-details'>bookings@foresthotel.com</h3>
         </li>
         <li>
-        <img src='' alt="1" className='contact-icon'/><h4>@foresthotelZN</h4>
-        <img src='' alt="1" className='contact-icon'/><h4>@foresthotelZN</h4>
-        <img src='' alt="1" className='contact-icon'/><h4>@foresthotelZN</h4>
-        <img src='' alt="1" className='contact-icon'/><h4>Forest Hotel Zululand</h4>
-        <img src='' alt="1" className='contact-icon'/><h4>@foresthotelZN</h4>
+        <img src={img20} alt="1" className='contact-icon'/><h4>@foresthotelZN</h4>
+        <img src={img21} alt="1" className='contact-icon'/><h4>@foresthotelZN</h4>
+        <img src={img22} alt="1" className='contact-icon'/><h4>@foresthotelZN</h4>
+        <img src={img23} alt="1" className='contact-icon'/><h4>Forest Hotel Zululand</h4>
+        <img src={img24} alt="1" className='contact-icon'/><h4>@foresthotelZN</h4>
         </li>
       </ul>
     </div>

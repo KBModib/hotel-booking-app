@@ -6,20 +6,20 @@ header {
   background-color: #515136;
   font-family: 'Vollkorn', serif;
   text-decoration: none;
-  height: 50px;
+  height: 125px;
   overflow: hidden;
   -webkit-text-fill-color: white;
 }
 header ul {
   list-style-type: none;
-  margin: 0;
+  margin-top: 50px;
   padding: 0;
   overflow: hidden;
   background-color: #515136;
 }
 header li {
   float: left;
-  margin-left: 12%;
+  margin-left: 220px;
   margin-top: 1%;
   -webkit-text-fill-color: #C2B49B;
 }
@@ -37,32 +37,31 @@ header h3:active {
   -webkit-text-fill-color: #515136;
 }
 header img {
-  background-image: url(./assets/images/logo.png);
-  margin-left: -150px;
-  margin-top: 1%;
+  margin-left: -180px;
+  margin-top: -40px;
+}
+.button-container {
+  margin-right: 180px;
 }
 header button {
   float: right;
   background-color: #B18742;
-  border-radius: 50%;
-  text-align: center;
+  border-radius: 45%;
   text-decoration: none;
   cursor: pointer;
-  padding : 7px;
-  margin-top: -35px;
-  margin-right: 30px;
+  padding : 6px;
+  margin-top: -75px;
   border-color: #B18742;
 }
 .nav-btn {
   background-color: #B18742;
-  text-align: center;
-  text-decoration: none;
   cursor: pointer;
   margin-top: -35px;
   -webkit-text-fill-color: #333738;
   font-family: 'Vollkorn', serif;
   font-weight: 600;
   font-size: 14px;
+  margin-right: 10px;
 }
 footer {
   background-color: #515136;

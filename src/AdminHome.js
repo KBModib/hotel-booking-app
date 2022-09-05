@@ -4,7 +4,6 @@ import AdminDashboard from './components/AdminDashboard'
 export default function AdminHome() {
   return (
     <>
-      <img src='' alt='logo' />
       <AdminDashboard/>
     </>
   )
